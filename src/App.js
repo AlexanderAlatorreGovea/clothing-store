@@ -43,7 +43,7 @@ class App extends Component {
         <Switch >
           <Route  exact path="/" component={ HomePage }/>
           <Route  path="/Shop" component={ Shop }/>
-          <Route  exact path="/SignInAndUp" 
+          <Route
             exact
             path='/signin'
             render={() =>
