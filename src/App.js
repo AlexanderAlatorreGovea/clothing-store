@@ -11,7 +11,10 @@ import CheckOut from './pages/CheckOut/CheckOut';
 
 import Header from './components/Header/Header';
 
-import { auth, createUserProfileDocument } from './firebase/firebase.utils';
+import { 
+  auth, 
+  createUserProfileDocument
+ } from './firebase/firebase.utils';
 import { setCurrentUser } from './redux/user/user-actions';
 import { selectCurrentUser } from './redux/user/user-selectors';
 
